@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>FakeStoreAPI</title>
+  </head>
+  <body>
+    <header>
+      <h1>FakeStoreAPI</h1>
+      <button class="add_article_button">Ajouter un article</button>
+      <div class="add_article_form">
+        <p>Formulaire d'ajout d'article</p>
+        <input type="text" class="input_title" placeholder="Titre de l'article" required />
+        <input type="text" class="input_category" placeholder="Catégorie de l'article" required />
+        <input type="text" class="input_description" placeholder="Description de l'article" required />
+        <input type="number" class="input_price" placeholder="Prix de l'article" required />
+        <input type="text" class="input_image" placeholder="Image(URL) de l'article" required />
+        <button class="submit_form_button">Ajouter</button>
+        <button class="close_form_button">Annuler</button>
+      </div>
+    </header>
+    <section class="articles_container"></section>
+    <button class="more_button">Afficher plus de produits</button>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
